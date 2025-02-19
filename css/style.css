@@ -1,0 +1,191 @@
+/* installation style */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
+:root {
+  --MainColor: #e20808;
+  --SecColor: #ffd10c;
+  --ThreeColor:#ececec;
+  --AnimationSpeed: all 0.3s;
+}
+.MainColor{
+    color: var(--MainColor);
+}
+.SecColor{
+    color: var(--SecColor);
+}
+.ThreeColor{
+    color: var(--ThreeColor);
+}
+
+/* -------------- */
+.MainBack{
+    background-color: var(--MainColor);
+}
+.SecBack{
+    background-color: var(--SecColor);
+}
+* {
+  padding: 0;
+  margin: 0;
+  /* box-sizing: border-box !important;
+  -moz-box-sizing: border-box !important;
+  -webkit-box-sizing: border-box !important; */
+  font-family: "Roboto", sans-serif;
+}
+.transition {
+  transition: var(--AnimationSpeed) !important;
+}
+
+body{
+    background-color: var(--ThreeColor) !important;
+    overflow-x: hidden;
+    border-bottom: 7px solid var(--MainColor);
+}
+/* ----Start Header---- */
+/* start nave Header  */
+header {
+  background-color: var(--MainColor);
+}
+.LogoImg img {
+  width: 150px;
+}
+.NavHeader li {
+  list-style: none;
+}
+.NavHeader li a {
+  text-decoration: none;
+  color: #fff;
+  line-height: 1;
+  transition: var(--AnimationSpeed) !important;
+}
+.NavHeader li a:hover {
+  color: var(--SecColor);
+}
+
+/* start box header middle */
+.BoxImg{
+  width: 200px;
+  overflow: hidden;
+  margin: auto;
+  height: 200px;
+  border-radius: 100%;
+  border: 6px solid #fff;
+}
+.BoxImg img{
+  width: 100%;
+  object-fit: cover;
+  height: 100%;
+}
+.LineBlok{
+    background-color: var(--SecColor);
+    height: 3px;
+    width: 100px;
+    display: block;
+    margin: auto;
+}
+.BoxProgrhic p{
+    line-height: 1.5;
+    font-size: 22px;
+    color: #fb9393;
+}
+
+/*start services header*/
+.ServicesBox{
+  margin: 0 auto -75px;
+}
+.IconServies{
+    background: #ececec;
+}
+
+/* End Header */
+
+/* ----Stert Header---- */
+/*Projects Section */
+.ProjectsSection{
+  margin-top: 75px;
+}
+.ProjectsSection .swiper-button-next{
+  background: linear-gradient(270deg, rgba(226,8,8,0.7077031496192228) 0%, rgba(226,8,8,0) 100%);
+  opacity: 0;
+  top: 0;
+  padding: 0 35px;
+  margin: 0;
+  height: calc(100% - 50px);
+  right: 0;
+  transition: var(--AnimationSpeed);
+}
+.ProjectsSection .swiper-button-prev{
+  background: linear-gradient(90deg, rgba(226,8,8,0.7077031496192228) 0%, rgba(226,8,8,0) 100%);
+  opacity: 0;
+  top: 0;
+  padding: 0 35px;
+  margin: 0;
+  height: calc(100% - 50px);
+  left: 0;
+  transition: var(--AnimationSpeed);
+}
+.ProjectsSection .swiper-button-next::after,.ProjectsSection .swiper-rtl .swiper-button-prev::after,.ProjectsSection .swiper-button-prev::after,.ProjectsSection .swiper-rtl .swiper-button-next::after {
+  content: ' ';
+}
+.ProjectsSection .swiper-wrapper{
+  padding: 0 0 50px 0 !important;
+}
+.ProjectsSection .swiper-pagination span{
+  width: 15px;
+  height: 15px;
+  background: #ff7676;
+  opacity: 1;
+}
+.ProjectsSection .swiper-pagination .swiper-pagination-bullet-active{
+  background: #e20808;
+}
+.ProjectsSection .swiper-button-prev:hover,.ProjectsSection .swiper-button-next:hover{
+  opacity: 0.5;
+}
+.ProjectsSection .card:hover {
+  box-shadow: 1px 3px 2px #acacac;
+}
+
+/* opation box */
+.OptionBox .rd-body{
+
+}
+.OptionBox .img{
+  width: 150px;
+  overflow: hidden;
+  margin: auto;
+  height: 150px;
+  border-radius: 100%;
+}
+.OptionBox .img img{
+  width: 100%;
+  object-fit: cover;
+  height: 100%;
+}
+.OptionBox .massage{
+  flex: 1;
+  padding-left: 30px;
+  padding-top: 15px;
+}
+/* SoicalInconBox */
+.SoicalInconBox a{
+ width: 70px;
+ height: 70px;
+ margin: auto;
+ text-align: center;
+ font-size: 30px;
+ line-height: 40px;
+ transition: var(--AnimationSpeed);
+}
+.SoicalInconBox a:hover{
+  box-shadow: 0px 4px 4px #63636386;
+  max-width: ;
+ }
+
+
+  /*Start Responsive design */
+  /* -768- */
+  @media screen and ( max-width:768px) {
+    
+  }
+  
+  /*End Responsive design */
