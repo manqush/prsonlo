@@ -26,10 +26,10 @@
 }
 /* -------------- */
 .MainBack{
-    background-color: var(--MainColor);
+    background-color: var(--MainColor) !important;
 }
 .SecBack{
-    background-color: var(--SecColor);
+    background-color: var(--SecColor) !important;
 }
 * {
 
