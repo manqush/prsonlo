@@ -24,6 +24,10 @@
 .h7,h7{
   font-size: 0.9rem;
 }
+.h10{
+  font-size: 0.5rem;
+}
+
 /* -------------- */
 .MainBack{
     background-color: var(--MainColor) !important;
@@ -263,4 +267,12 @@ header {
   /* -------------------- */
   .holderCartArticle:hover{
     box-shadow: 1px 1px 4px 1px #b9b9b9;
+  }
+  .commentItemsBoxImg img{
+    object-fit: cover;
+    height: 80px;
+    width: 80px;
+  }
+  .commentItemsBoxImg{
+    width: 150px;
   }
