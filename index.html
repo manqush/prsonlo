@@ -49,10 +49,10 @@
                         <a class="nav-link-custom" href="#"><i class="fa-solid fa-house-chimney fs-4"></i></a>
                       </li>
                       <li class="nav-item-custom">
-                        <a class="nav-link-custom" href="#">About</a>
+                        <a class="nav-link-custom" href="/page.html">About</a>
                       </li>
                       <li class="nav-item-custom">
-                        <a class="nav-link-custom" href="#">Work</a>
+                        <a class="nav-link-custom" href="/blog.html">Blog</a>
                       </li>
                       <li class="nav-item-custom">
                         <a class="nav-link-custom" href="#">Project</a>
@@ -70,10 +70,13 @@
                   <nav class="navbar navbar-expand-lg bg-body-tertiary ps-5">
                     <ul class="NavHeader d-flex justify-content-between w-100 m-0 p-0">
                       <li class="nav-item-custom">
-                        <a class="nav-link-custom" href="#">Blog</a>
+                        <a class="nav-link-custom"  href="/">Home</a>
                       </li>
                       <li class="nav-item-custom">
-                        <a class="nav-link-custom" href="#">Services</a>
+                        <a class="nav-link-custom"  href="/page.html">About</a>
+                      </li>
+                      <li class="nav-item-custom">
+                        <a class="nav-link-custom"href="/blog.html">Blog</a>
                       </li>
                       <li class="nav-item-custom">
                         <a class="nav-link-custom" href="#">Project</a>
@@ -163,9 +166,9 @@
             <div class="row  gy-3">
 
               <div class="col-12 col-md-4 text-center">
-                <div class="BoxServies d-flex bg-white p-3">
+                <div class="BoxServies d-flex bg-white p-3 flex-lg-row flex-column justify-content-center">
                   <div class="IconServies w-50 h-auto ThreeColor d-flex justify-content-center align-items-center">
-                    <i class="fa-solid fa-house-chimney fs-4 MainColor"></i>
+                    <i class="fa-solid fa-diagram-project fs-4 MainColor"></i>
                   </div>
                   <div class="DitalsServies w-75 text-start ps-3 py-4">
                     <h3>Work</h3>
@@ -175,9 +178,9 @@
               </div>
 
               <div class="col-12 col-md-4 text-center">
-                <div class="BoxServies d-flex bg-white p-3">
+                <div class="BoxServies d-flex bg-white p-3 flex-lg-row flex-column justify-content-center">
                   <div class="IconServies w-50 h-auto ThreeColor d-flex justify-content-center align-items-center">
-                    <i class="fa-solid fa-house-chimney fs-4 MainColor"></i>
+                    <i class="fa-brands fa-pushed fs-4 MainColor"></i>
                   </div>
                   <div class="DitalsServies w-75 text-start ps-3 py-4">
                     <h3>Work</h3>
@@ -187,9 +190,9 @@
               </div>
 
               <div class="col-12 col-md-4 text-center">
-                <div class="BoxServies d-flex bg-white p-3">
+                <div class="BoxServies d-flex bg-white p-3 flex-lg-row flex-column justify-content-center">
                   <div class="IconServies w-50 h-auto ThreeColor d-flex justify-content-center align-items-center">
-                    <i class="fa-solid fa-house-chimney fs-4 MainColor"></i>
+                    <i class="fa-solid fa-users-line fs-4 MainColor"></i>
                   </div>
                   <div class="DitalsServies w-75 text-start ps-3 py-4">
                     <h3>Work</h3>
@@ -211,9 +214,9 @@
   </header>
   <section class="py-5">
     <div class="ProjectsSection">
-      <div class="container">
+      <div class="container-md">
         <div class="row justify-content-center">
-          <div class="col-12 text-center">
+          <div class="col-12 text-center ">
             <div class="ServiesTitle">
               <h2 class="h2 text-dark pb-2">Projects</h2>
             </div>
@@ -221,8 +224,8 @@
         </div>
 
         <div class="row ">
-          <div class="col-12">
-            <div #swiperRef="" class="swiper Projects">
+          <div class="col-12 p-sm-2 p-0">
+            <div class="swiper Projects">
               <div class="swiper-wrapper">
                 <!-- Box swiper -->
                 <div class="swiper-slide">
@@ -566,11 +569,11 @@
           <ul class="list-unstyled p-3">
 
             <li class="border-bottom">
-              <a class="nav-link-custom d-block p-3 text-decoration-none text-dark opacity05" href="#">About</a>
+              <a class="nav-link-custom d-block p-3 text-decoration-none text-dark opacity05" href="/page.html">About</a>
             </li>
 
             <li class="border-bottom">
-              <a class="nav-link-custom d-block p-3 text-decoration-none text-dark opacity05" href="#">Work</a>
+              <a class="nav-link-custom d-block p-3 text-decoration-none text-dark opacity05" href="/blog.html">Blog</a>
             </li>
 
             <li class="border-bottom">
@@ -609,10 +612,10 @@
             // when window width is >= 480px
             480: {
               slidesPerView: 2,
-              spaceBetween: 30
+              spaceBetween: 20
             },
             // when window width is >= 640px
-            640: {
+            768: {
               slidesPerView: 3,
               spaceBetween: 40
             }
