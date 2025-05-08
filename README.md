@@ -17,6 +17,6 @@
 
 <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiGLT7w2j_aKHy0CylzjqWL7zYbR1Bmek9AlFm9yLwZtCYxEWCEOGiRryk1l1i7WWD85XuG8KKsImlbHlUmpuA0OHv8mZsPgaGp-i39rfh-hpSKAGDT_h2ovfpw2vGsOprT5zWcPk9-szW0XTXX3GJtCfvSkcsUXQLFd1NwVIECMEXPi-EelUpsjD4yNlY/s16000/Macbook-Air-127.0.0.1%20(3).png" alt="project-screenshot" width="100%" >
 
-<img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhcNPhDE3pJq2r4jDGJZjGRPtJTNk9Zv56-bqOquFZcnE8XMfgHQZakXt-4jbGSqcvFPrnXsX5GrfOpQrZhh0gIPh90QSqt8zCsNZn-rO7foI4gyrCDp99Y7KRaXoY4qj9JdXYC3-RCc5wjzi3wolnSnQPtBPKHH4HoM3b5Q8X1iZ35MSshyphenhyphenjfqE2nXMnI/s16000/iPhone-13-PRO-127.0.0.1%20(2).png" alt="project-screenshot" width="200px"  >
+
 
 </div>
