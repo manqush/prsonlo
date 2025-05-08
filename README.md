@@ -7,7 +7,7 @@
 <h2>Project Screenshots:</h2>
 
 <div style="text-align: center;"> 
-<img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjG2AlcFZJ9Gsev9Jtr-mYWikYP6vIBbMZOigWJRMiNaDRuY33ETuw2jcQPAyW1_lQxtOmaYbcpcoOZNaB5h1EW-X91Bl3QQmgRkXuRqjVdVaCX2fkSGK-gflhrV4JLvXln5Xvpy7RYeFX2LmMqTgocLC_PuH7J3_On-xVtBMpNSKwhgNi7qS3-qY11xM0/s16000/Macbook-Air-127.0.0.1%20(1).png" alt="project-screenshot" width="50%" >
+<img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjG2AlcFZJ9Gsev9Jtr-mYWikYP6vIBbMZOigWJRMiNaDRuY33ETuw2jcQPAyW1_lQxtOmaYbcpcoOZNaB5h1EW-X91Bl3QQmgRkXuRqjVdVaCX2fkSGK-gflhrV4JLvXln5Xvpy7RYeFX2LmMqTgocLC_PuH7J3_On-xVtBMpNSKwhgNi7qS3-qY11xM0/s16000/Macbook-Air-127.0.0.1%20(1).png" alt="project-screenshot" width="100%" >
 
 
 
